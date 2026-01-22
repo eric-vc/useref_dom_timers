@@ -1,0 +1,50 @@
+.contador-ref {
+max-width: 400px;
+margin: 2rem auto;
+padding: 2rem;
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+border-radius: 12px;
+color: white;
+text-align: center;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+.contador-ref h1 {
+margin-bottom: 2rem;
+}
+.display {
+font-size: 4rem;
+font-weight: bold;
+font-family: 'Courier New', monospace;
+margin: 2rem 0;
+background: rgba(255, 255, 255, 0.2);
+padding: 2rem;
+border-radius: 8px;
+}
+.botones {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 1rem;
+}
+.botones button {
+padding: 1rem;
+border: none;
+border-radius: 6px;
+font-weight: bold;
+cursor: pointer;
+transition: transform 0.2s;
+}
+.botones button:hover {
+transform: scale(1.05);
+}
+.btn-iniciar {
+background-color: #34d399;
+color: white;
+}
+.btn-pausar {
+background-color: #f59e0b;
+color: white;
+}
+.btn-reiniciar {
+background-color: #ef4444;
+color: white;
+}
